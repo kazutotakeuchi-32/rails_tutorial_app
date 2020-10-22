@@ -80,8 +80,8 @@ Rails.application.configure do
     :enable_starttls_auto => true
   }
 
-  puts  ENV['SENDGRID_USERNAME']
-  puts  ENV['SENDGRID_PASSWORD']
+  p  ENV['SENDGRID_USERNAME']
+  p  ENV['SENDGRID_PASSWORD']
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
